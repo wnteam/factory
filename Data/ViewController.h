@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+- (IBAction)Btn_NewTable:(id)sender;
+- (IBAction)Btn_AddData:(id)sender;
+- (IBAction)Btn_DeleteData:(id)sender;
+- (IBAction)Btn_Update:(id)sender;
+- (IBAction)Btn_Select:(id)sender;
 @end
